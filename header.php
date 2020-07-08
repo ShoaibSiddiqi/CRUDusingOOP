@@ -24,7 +24,7 @@
         <a class="nav-link " href="all-products.php">Product Table<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item pt-2">
-        <a class="nav-link" href="https://github.com/subhan-22/CRUDproduct"><i class="fab fa-github border border-secondary rounded-circle p-1 text-secondary"></i></a>
+        <a class="nav-link" href="https://github.com/subhan-22/CRUDusingOOP"><i class="fab fa-github border border-secondary rounded-circle p-1 text-secondary"></i></a>
       </li>
     </ul>
   </div>

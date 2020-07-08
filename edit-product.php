@@ -17,12 +17,6 @@ if (isset($_POST['update'])) {
   $condition = $_POST['prodCondition'];
 
   $update = "UPDATE products SET prod_name='$name', prod_price='$price', prod_type='$type', prod_description='$description', prod_img='$image', prod_condition='$condition' WHERE prod_id='$id'";
-
-  // if (mysqli_query($conn, $update)) {
-  //   header("location:all-products.php");
-  // } else {
-  //   echo "Error: ". $update ."<br>" . mysqli_error($conn);
-  // }
   if ($conn->query($update) === TRUE) {
     header("location:all-products.php");
     }
